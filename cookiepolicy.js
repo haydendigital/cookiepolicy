@@ -16,7 +16,7 @@ $(function() {
 			}
 		}
 		
-		// If we dont have the correct cookie, continue, otherwise give up now before wasting any more resources
+		// If we don't have the correct cookie, continue, otherwise give up now before wasting any more resources
 		if (getCookie('cookiepolicy') !== "continue_" + version) {
 		
 			function setCookie(c_name,value,exdays) {
